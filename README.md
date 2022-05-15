@@ -1,5 +1,5 @@
 # stormhalter-remap-hotkeys
-Remap Hotkeys in Stormhalter using AutoHotkey
+Remap Hotkeys in Stormhalter (http://stormhalter.com) using AutoHotkey
 
 Please download and install AutoHotkey to run this script at https://www.autohotkey.com/
 
