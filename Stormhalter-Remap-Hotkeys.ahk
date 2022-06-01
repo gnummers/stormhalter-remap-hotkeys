@@ -11,6 +11,16 @@
 XButton2::NumpadMult
 XButton1::NumpadDiv
 
-; Below allows us to use middle mouse button as a double-click action universally in Stormhalter, for movement, jumpkicks, warming spells, rolling corpses, etc.
-; Third mouse click added below as a "quick hack" solution to 2 clicks (double-click) not always seeming to register in the game.
-MButton::Click 3
+;Below remaps the Creature List from ALT+L to ALT+D.
+!d::!l 
+
+; Below allows us to use middle mouse button as a double-click action universally in Stormhalter,
+; for movement, jumpkicks, warming spells, rolling corpses, etc.
+MButton::
+    Send, {LButton down}
+    Sleep 10
+    Send, {LButton up}
+    Send, {LButton down}
+    Sleep 10
+    Send, {LButton up}
+return
